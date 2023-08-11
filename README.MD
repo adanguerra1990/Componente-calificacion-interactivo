@@ -1,5 +1,7 @@
 ### Screenshot
+### Pantalla Principal
 ![](./design/principal.jpg)
+### Ventana Modal
 ![](./design/modal1.jpg)
 ![](./design/modal2.jpg)
 
