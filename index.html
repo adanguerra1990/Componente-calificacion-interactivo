@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+
+  <section class="centrar-contenedor">
+    <section class="container">
+
+      <div class="circulo">
+        <img class="imagen" src="images/icon-star.svg" alt="star">
+      </div>
+
+      <div class="contenido">
+        <h2 class="titulo">How did we do?</h2>
+        <p class="parrafo">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+
+      <div class="calificacion" id="calificacion">
+        <span class="circulo calificador " id="uno">1</span>
+        <span class="circulo calificador" id="dos">2</span>
+        <span class="circulo calificador" id="tres">3</span>
+        <span class="circulo calificador" id="cuatro">4</span>
+        <span class="circulo calificador" id="cinco">5</span>
+      </div>
+
+      <div class="seccion-boton">
+        <button class="boton" id="boton" type="submit">
+          Submit
+        </button>
+      </div>
+    </section>
+
+
+    <!-- Ventana Modal -->
+    <section class="container modal hidden">
+      <div class="container-img">
+        <img src="images/illustration-thank-you.svg" alt="imagen-gracias">
+      </div>
+
+      <div class="calificacion-final">
+        <span class="mostrar-calificacion"></span>
+      </div>
+
+      <div class="contenido">
+        <h2 class="titulo titulo-modal"></h2>
+        <p class="parrafo">
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+    </section>
+    <div class="overlay hidden"></div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Adan Guerra</a>.
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
